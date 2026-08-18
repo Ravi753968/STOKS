@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-18",
+  "fii_cash_net": 420.5,
+  "dii_cash_net": 890.3,
+  "total_net": 1310.8,
+  "fii_buy": 11450.0,
+  "fii_sell": 11029.5,
+  "dii_buy": 9840.0,
+  "dii_sell": 8949.7,
+  "institutional_bias": "STRONGLY BULLISH",
+  "bias_color": "#10b981",
+  "bias_desc": "Both FIIs (+Rs 420 Cr) and DIIs (+Rs 890 Cr) are Net Buyers. Strong institutional liquidity tailwind.",
+  "source": "market_flow_estimate",
+  "updated_at": "2026-08-18 16:25 IST"
+}

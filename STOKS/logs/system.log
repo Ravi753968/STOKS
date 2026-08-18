@@ -1,0 +1,870 @@
+2026-08-17 18:59:32 [INFO] ================================================================================
+2026-08-17 18:59:32 [INFO]  ENTERPRISE PRODUCTION BREAKOUT SUITE VERSION 3.0 EXECUTION 
+2026-08-17 18:59:32 [INFO]  Parameters: RSI (9) Fast Momentum + Upper BB (20,2) + ATR Trailing SL + Targets
+2026-08-17 18:59:32 [INFO] ================================================================================
+2026-08-17 19:01:57 [INFO] Resolved 299 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-17 19:01:57 [INFO] Combined Universe Total Tickers: 387
+2026-08-17 19:01:57 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-17 19:03:34 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-08-17 19:03:41 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:04:35 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:04:37 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:04:39 [ERROR] 
+58 Failed downloads:
+2026-08-17 19:04:39 [ERROR] ['EPACKPEB.BO', 'COALINDIA.NS', 'TBOTEK.BO', 'CEWATER.BO', 'AVALON.NS', 'RRKABEL.BO', 'DAMCAPITAL.NS', 'SOLARWORLD.BO', 'HINDALCO.NS', 'UNIMECH.BO', 'SIGNATURE.NS', 'DENTA.BO', 'DIVGIITTS.NS', 'SIEMENS.NS', 'PNB.NS', 'MEIL.BO', 'KISSHT.NS', 'RBZJEWEL.NS', 'JYOTICNC.BO', 'DEVX.NS', 'IDFCFIRSTB.NS', 'JUNIPER.BO', 'BELRISE.NS', 'SBIN.NS', 'PRUDENT.NS', 'FIVESTAR.BO', 'AEQUS.NS', 'INDIQUBE.NS', 'POLYCAB.NS', 'AMAGI.NS', 'RSL.BO', 'AFCONS.BO', 'MUTHOOTMF.NS', 'SANATHAN.BO', 'TECHNOCRAF.NS', 'GSPCROP.BO', 'URBANCO.NS', 'ANTHEM.NS', 'FRACTAL.NS', 'SEDEMAC.NS', 'STUDDS.NS', 'BLSE.BO', 'SAIL.NS', 'JNKINDIA.NS', 'DOMS.BO', 'QPOWER.BO', 'AHCL.BO', 'IRCTC.NS', 'STYLEBAAZA.NS', 'MCX.NS', 'BMWVENTLTD.NS', 'SAMBHV.BO', 'AKUMS.BO', 'USK.NS', 'STANLEY.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-08-17 19:04:39 [ERROR] ['LTIM.NS', 'REC.NS', 'ZOMATO.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:04:40 [INFO] STAGE 1 Complete: 18 daily breakouts & 17 5-Year IPO breakouts detected!
+2026-08-17 19:04:40 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-17 19:04:53 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-17 19:05:19 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-17 19:05:20 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-17 19:05:29 [ERROR] 
+6 Failed downloads:
+2026-08-17 19:05:29 [ERROR] ['RISHABH.BO', 'KOTAKBANK.NS', 'LCL.BO']: TypeError("'NoneType' object is not subscriptable")
+2026-08-17 19:05:29 [ERROR] ['LTIM.NS', 'ZOMATO.NS', 'REC.NS']: possibly delisted; no timezone found
+2026-08-17 19:05:30 [INFO] STAGE 2 Complete: 56 monthly ATH breakouts detected!
+2026-08-17 19:05:30 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-17 19:05:30 [INFO] STAGE 4: Regenerating Web Workstation Dashboard...
+2026-08-17 19:05:30 [INFO] ================================================================================
+2026-08-17 19:05:30 [INFO]  PRODUCTION PIPELINE V3.0 EXECUTION FINISHED SUCCESSFULLY!
+2026-08-17 19:05:30 [INFO] ================================================================================
+2026-08-17 19:10:55 [INFO] ================================================================================
+2026-08-17 19:10:55 [INFO]  ENTERPRISE PRODUCTION BREAKOUT SUITE VERSION 3.0 EXECUTION 
+2026-08-17 19:10:55 [INFO]  Parameters: RSI (9) Fast Momentum + Upper BB (20,2) + ATR Trailing SL + Targets
+2026-08-17 19:10:55 [INFO] ================================================================================
+2026-08-17 19:12:20 [INFO] Resolved 315 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-17 19:12:20 [INFO] Combined Universe Total Tickers: 401
+2026-08-17 19:12:20 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-17 19:12:44 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-08-17 19:12:46 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:13:12 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:14:25 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:14:46 [ERROR] 
+41 Failed downloads:
+2026-08-17 19:14:46 [ERROR] ['AYE.NS', 'AVALON.NS', 'KISSHT.NS', 'LENSKART.BO', 'GAUDIUMIVF.BO', 'INDIGO.NS', 'SAIL.NS', 'TATACAP.NS', 'ATLANTAELE.BO', 'AXISBANK.NS', 'KUSUMGAR.NS', 'ICICIAMC.BO', 'CAPITALSFB.BO', 'MUFTI.NS', 'VMSTMT.NS', 'AGSTRA.NS', 'BIKAJI.BO', 'RSL.BO', 'TITAN.NS', 'RATNAVEER.BO', 'ADANIPOWER.NS', 'BAJAJ-AUTO.NS', 'SBIN.NS', 'AADHARHFC.BO', 'UNIECOM.BO', 'FEDFINA.NS', 'HDFCLIFE.NS', 'JSWCEMENT.NS', 'KOTAKBANK.NS', 'ARKADE.NS', 'HAPPYFORGE.NS', 'ADANIPORTS.NS', 'ARSSBL.BO', 'DAMCAPITAL.NS', 'NTPC.NS', 'PFC.NS', 'VPRPL.BO', 'DELHIVERY.BO']: TypeError("'NoneType' object is not subscriptable")
+2026-08-17 19:14:46 [ERROR] ['LTIM.NS', 'ZOMATO.NS', 'REC.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:14:47 [INFO] STAGE 1 Complete: 20 daily breakouts & 19 5-Year IPO breakouts detected!
+2026-08-17 19:14:47 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-17 19:15:08 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-17 19:15:24 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-17 19:16:38 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-17 19:17:13 [ERROR] 
+44 Failed downloads:
+2026-08-17 19:17:13 [ERROR] ['INDIGO.NS', 'BHEL.NS', 'TRAVELFOOD.BO', 'INDOFARM.BO', 'GROWW.BO', 'VIKRAN.BO', 'INDIQUBE.NS', 'UNIPARTS.BO', 'TRENT.NS', 'GANDHAR.NS', 'ALLTIME.NS', 'HAL.NS', 'DCXINDIA.NS', 'URBANCO.NS', 'CAPITALSFB.BO', 'IDEAFORGE.NS', 'PREMIERENE.BO', 'UDS.NS', 'JAINREC.BO', 'JNKINDIA.NS', 'VSTL.BO', 'PNGSREVA.BO', 'EXICOM.BO', 'RATNAVEER.BO', 'ARDEE.NS', 'SAMHI.BO', 'OSWALPUMPS.BO', 'BPCL.NS', 'PROTEAN.NS', 'UNIMECH.BO', 'LEAPIND.NS', 'RAINBOW.BO', 'STYL.BO', 'ITC.NS', 'AFCONS.BO', 'BAJFINANCE.NS', 'RPTECH.NS', 'JSWSTEEL.NS', 'HILINFRA.NS', 'PNB.NS', 'MANKIND.BO']: TypeError("'NoneType' object is not subscriptable")
+2026-08-17 19:17:13 [ERROR] ['LTIM.NS', 'ZOMATO.NS', 'REC.NS']: possibly delisted; no timezone found
+2026-08-17 19:17:14 [INFO] STAGE 2 Complete: 52 monthly ATH breakouts detected!
+2026-08-17 19:17:14 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-17 19:17:14 [INFO] STAGE 4: Regenerating Web Workstation Dashboard...
+2026-08-17 19:17:14 [INFO] ================================================================================
+2026-08-17 19:17:14 [INFO]  PRODUCTION PIPELINE V3.0 EXECUTION FINISHED SUCCESSFULLY!
+2026-08-17 19:17:14 [INFO] ================================================================================
+2026-08-17 19:18:42 [INFO] ================================================================================
+2026-08-17 19:18:42 [INFO]  ENTERPRISE PRODUCTION BREAKOUT SUITE VERSION 3.0 EXECUTION 
+2026-08-17 19:18:42 [INFO]  Parameters: RSI (9) Fast Momentum + Upper BB (20,2) + ATR Trailing SL + Targets
+2026-08-17 19:18:42 [INFO] ================================================================================
+2026-08-17 19:20:14 [INFO] Resolved 304 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-17 19:20:14 [INFO] Combined Universe Total Tickers: 392
+2026-08-17 19:20:14 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-17 19:20:21 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: REC.NS"}}}
+2026-08-17 19:20:23 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:20:33 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-08-17 19:20:34 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:20:35 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:21:11 [ERROR] 
+9 Failed downloads:
+2026-08-17 19:21:11 [ERROR] ['REC.NS', 'ZOMATO.NS', 'LTIM.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-17 19:21:11 [ERROR] ['TBOTEK.BO', 'SYRMA.BO', 'INOXGREEN.NS', 'HCLTECH.NS', 'AKUMS.BO', 'ICICIBANK.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-08-17 19:21:12 [INFO] STAGE 1 Complete: 23 daily breakouts & 22 5-Year IPO breakouts detected!
+2026-08-17 19:21:12 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-17 19:21:13 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-17 19:21:22 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-17 19:21:23 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-17 19:21:55 [ERROR] 
+5 Failed downloads:
+2026-08-17 19:21:55 [ERROR] ['REC.NS', 'LTIM.NS', 'ZOMATO.NS']: possibly delisted; no timezone found
+2026-08-17 19:21:55 [ERROR] ['POLYCAB.NS', 'MAZDOCK.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-08-17 19:21:56 [INFO] STAGE 2 Complete: 59 monthly ATH breakouts detected!
+2026-08-17 19:21:56 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-17 19:21:57 [INFO] STAGE 4: Regenerating Web Workstation Dashboard...
+2026-08-17 19:21:57 [INFO] ================================================================================
+2026-08-17 19:21:57 [INFO]  PRODUCTION PIPELINE V3.0 EXECUTION FINISHED SUCCESSFULLY!
+2026-08-17 19:21:57 [INFO] ================================================================================
+2026-08-18 14:33:06 [INFO] ============================================================
+2026-08-18 14:33:06 [INFO] STOKS AI — Smart Analysis Engine V1.0 Starting...
+2026-08-18 14:33:06 [INFO] ============================================================
+2026-08-18 14:33:06 [INFO]   Processing 22 rows from recent_ipo_breakouts_5y.csv...
+2026-08-18 14:33:06 [INFO]   Processing 23 rows from master_scan_results.csv...
+2026-08-18 14:33:06 [INFO]   Processing 59 rows from monthly_ath_breakouts.csv...
+2026-08-18 14:33:06 [INFO]   Generated 70 AI stock reports.
+2026-08-18 14:33:06 [INFO]   Market Sentiment: MODERATELY BULLISH
+2026-08-18 14:33:06 [INFO]   Top Picks: RUBICON (RUBICON), QUALITY (QPOWER), Turtlemint (TURTLEMINT), Rishabh (RISHABH), KRN (KRN)
+2026-08-18 14:33:06 [INFO] SUCCESS: AI Analysis Report saved -> ai_analysis_report.json
+2026-08-18 14:33:16 [INFO] ================================================================================
+2026-08-18 14:33:16 [INFO]  STOKS V4.0 — ENTERPRISE PRODUCTION BREAKOUT SUITE 
+2026-08-18 14:33:16 [INFO]  Parameters: RSI(9) Fast Momentum + BB(20,2) + ATR SL + Charts + Heatmap + Backtest
+2026-08-18 14:33:16 [INFO] ================================================================================
+2026-08-18 14:34:30 [INFO] Resolved 315 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-18 14:34:30 [INFO] Combined Universe Total Tickers: 402
+2026-08-18 14:34:30 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-18 14:35:35 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: REC.NS"}}}
+2026-08-18 14:35:37 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 14:35:48 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-08-18 14:35:55 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 14:35:56 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 14:35:56 [ERROR] 
+3 Failed downloads:
+2026-08-18 14:35:56 [ERROR] ['REC.NS', 'ZOMATO.NS', 'LTIM.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 14:35:57 [INFO] STAGE 1 Complete: 27 daily breakouts & 26 5-Year IPO breakouts detected!
+2026-08-18 14:35:57 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-18 14:37:00 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-18 14:37:13 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-18 14:37:14 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-18 14:37:15 [ERROR] 
+3 Failed downloads:
+2026-08-18 14:37:15 [ERROR] ['REC.NS', 'LTIM.NS', 'ZOMATO.NS']: possibly delisted; no timezone found
+2026-08-18 14:37:16 [INFO] STAGE 2 Complete: 64 monthly ATH breakouts detected!
+2026-08-18 14:37:16 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-18 14:37:16 [INFO] STAGE 5: Building Sector Heatmap Data...
+2026-08-18 14:37:16 [INFO] STAGE 5 Skipped: sector_map module not available.
+2026-08-18 14:37:16 [INFO] STAGE 6: Running Historical Backtesting...
+2026-08-18 14:37:16 [INFO] STAGE 6 Skipped: backtest_engine module not available.
+2026-08-18 14:37:16 [INFO] STAGE 7: Building IPO Performance Tracker...
+2026-08-18 14:37:16 [INFO] STAGE 7 Skipped: ipo_performance module not available.
+2026-08-18 14:37:16 [INFO] STAGE 4: Regenerating STOKS V4.0 Web Dashboard...
+2026-08-18 14:37:16 [INFO] ================================================================================
+2026-08-18 14:37:16 [INFO]  STOKS V4.0 PRODUCTION PIPELINE FINISHED SUCCESSFULLY!
+2026-08-18 14:37:16 [INFO] ================================================================================
+2026-08-18 15:29:06 [INFO] Building Sector Heatmap Data...
+2026-08-18 15:29:06 [INFO] Total unique tickers for sector mapping: 81
+2026-08-18 15:29:20 [INFO] SUCCESS: Sector Heatmap saved -> sector_heatmap_data.json (8 sectors)
+2026-08-18 15:29:22 [INFO] =================================================================
+2026-08-18 15:29:22 [INFO] STOKS V4.1 — Live IPO Performance Tracker Starting...
+2026-08-18 15:29:22 [INFO] =================================================================
+2026-08-18 15:29:22 [INFO] Loaded 925 IPOs from live internet fetcher.
+2026-08-18 15:29:22 [INFO] Downloading batch 2-day price data for 925 IPO tickers...
+2026-08-18 15:29:46 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:30:30 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: APOORVA.NS"}}}
+2026-08-18 15:30:31 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:30:43 [ERROR] 
+2 Failed downloads:
+2026-08-18 15:30:43 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:30:43 [ERROR] ['APOORVA.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:30:43 [INFO] Successfully fetched live prices for 914 IPO tickers.
+2026-08-18 15:30:43 [INFO] SUCCESS: IPO Performance data saved -> ipo_performance_data.csv (925 IPOs)
+2026-08-18 15:30:43 [INFO] =================================================================
+2026-08-18 15:30:43 [INFO] IPO TRACKER COMPLETE: 925 IPOs processed successfully.
+2026-08-18 15:30:43 [INFO] =================================================================
+2026-08-18 15:31:10 [INFO] =================================================================
+2026-08-18 15:31:10 [INFO] STOKS V4.1 — Live IPO Performance Tracker Starting...
+2026-08-18 15:31:10 [INFO] =================================================================
+2026-08-18 15:31:10 [INFO] Loaded 925 IPOs from live internet fetcher.
+2026-08-18 15:31:10 [INFO] Downloading batch 2-day price data for 925 IPO tickers...
+2026-08-18 15:31:48 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:31:55 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: APOORVA.NS"}}}
+2026-08-18 15:31:56 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:31:56 [ERROR] 
+2 Failed downloads:
+2026-08-18 15:31:56 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:31:56 [ERROR] ['APOORVA.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:31:56 [INFO] Successfully fetched live prices for 914 IPO tickers.
+2026-08-18 15:31:56 [INFO] SUCCESS: IPO Performance data saved -> ipo_performance_data.csv (925 IPOs)
+2026-08-18 15:31:56 [INFO] =================================================================
+2026-08-18 15:31:56 [INFO] IPO TRACKER COMPLETE: 925 IPOs processed successfully.
+2026-08-18 15:31:56 [INFO] =================================================================
+2026-08-18 15:36:59 [INFO] ================================================================================
+2026-08-18 15:36:59 [INFO]  STOKS V4.0 — ENTERPRISE PRODUCTION BREAKOUT SUITE 
+2026-08-18 15:36:59 [INFO]  Parameters: RSI(9) Fast Momentum + BB(20,2) + ATR SL + Charts + Heatmap + Backtest
+2026-08-18 15:36:59 [INFO] ================================================================================
+2026-08-18 15:36:59 [INFO] Resolved 925 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-18 15:36:59 [INFO] Combined Universe Total Tickers: 1004
+2026-08-18 15:36:59 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-18 15:37:06 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: REC.NS"}}}
+2026-08-18 15:37:09 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:37:21 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-08-18 15:37:24 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:37:42 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:37:58 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:38:04 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=60d)
+2026-08-18 15:38:16 [ERROR] 
+5 Failed downloads:
+2026-08-18 15:38:16 [ERROR] ['REC.NS', 'LTIM.NS', 'APOORVA.NS', 'ZOMATO.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:38:16 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=60d)
+2026-08-18 15:38:18 [INFO] STAGE 1 Complete: 51 daily breakouts & 50 5-Year IPO breakouts detected!
+2026-08-18 15:38:18 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-18 15:38:19 [ERROR] ARYAMAN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:19 [ERROR] CGVAK.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:19 [ERROR] MILKYMIST.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:20 [ERROR] SVGLOBAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:20 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-18 15:38:20 [ERROR] MOHITE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:21 [ERROR] MANBRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:21 [ERROR] TGVSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:21 [ERROR] ORIRAIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:21 [ERROR] TANAA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:21 [ERROR] SAB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:22 [ERROR] SPELS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:22 [ERROR] SGRL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:22 [ERROR] WARDINMOBI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:22 [ERROR] NICCOPAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:22 [ERROR] VIRTUALG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:23 [ERROR] YOGI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:23 [ERROR] SHIVAAGRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:23 [ERROR] MLKFOOD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:23 [ERROR] MSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:24 [ERROR] SUPTANERY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:24 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-18 15:38:24 [ERROR] SAYAJIIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:24 [ERROR] ISTLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:25 [ERROR] ASIANTNE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:25 [ERROR] LAKSHMIMIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:25 [ERROR] SIMPLXREA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:25 [ERROR] SHANTI-RE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:25 [ERROR] KMCSHIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:26 [ERROR] WHBRADY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:26 [ERROR] INDOKEM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:26 [ERROR] VADILENT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:26 [ERROR] SHILGRAVQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:26 [ERROR] KAMANWALA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:27 [ERROR] SWARNSAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:27 [ERROR] ARCL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:28 [ERROR] SAICAPI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:28 [ERROR] PANORAMA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:28 [ERROR] MYSORPETRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:30 [ERROR] HAMPTON.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:30 [ERROR] VOITHPAPR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:30 [ERROR] ADDIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:30 [ERROR] ADVIKCA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:30 [ERROR] SHRADDHA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:30 [ERROR] FREDUN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:32 [ERROR] PBMPOLY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:32 [ERROR] RRECL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:33 [ERROR] JENBURPH.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:33 [ERROR] LEENEE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:33 [ERROR] OPTIFIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:33 [ERROR] ENKEIWHEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:34 [ERROR] SUMEDHA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:34 [ERROR] SRIKPRIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:35 [ERROR] AMARJOTHI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:35 [ERROR] SWISSMLTRY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:35 [ERROR] ALUFLUOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:35 [ERROR] $APOORVA.NS: possibly delisted; no timezone found
+2026-08-18 15:38:36 [ERROR] VIJSOLX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:36 [ERROR] CRAVATEX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:36 [ERROR] KANCOTEA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:37 [ERROR] CHEMCRUX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:37 [ERROR] IPRINGLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:38 [ERROR] MINALIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:38 [ERROR] SEKURITIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:40 [ERROR] VIVOBIOT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:40 [ERROR] LADDERUP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:41 [ERROR] UDAYJEW.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:41 [ERROR] EBIX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:41 [ERROR] PACIFICI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:43 [ERROR] TOYAMSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:43 [ERROR] MPDL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:43 [ERROR] LANCER.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:43 [ERROR] JYOTIRES.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:43 [ERROR] AUSTENG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:43 [ERROR] MIIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:44 [ERROR] SUNSHIEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:44 [ERROR] PANCHMAHQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:44 [ERROR] TUTIALKA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:44 [ERROR] ASSAMENT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:44 [ERROR] ONEGLOBAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:44 [ERROR] EASTWEST.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:45 [ERROR] STLSTRINF.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:45 [ERROR] CRSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:45 [ERROR] GKB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:45 [ERROR] CFEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:46 [ERROR] HAZOOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:46 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-18 15:38:46 [ERROR] AZADIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:46 [ERROR] AMAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:47 [ERROR] ODYCORP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:47 [ERROR] PERMAGN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:48 [ERROR] TERAI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:48 [ERROR] SGLRES.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:49 [ERROR] SHERVANI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:50 [ERROR] SUNRAKSHAK.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] MEDICAPQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] KJMCFIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] VASUPRADA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] ACGL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] VEDAVAAG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] VTMLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] PRISMX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] ANDREWYU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:51 [ERROR] MKEXIM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:52 [ERROR] HBPOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:52 [ERROR] DHATRE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:52 [ERROR] POLYSPIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:53 [ERROR] AXTEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:53 [ERROR] ECORECO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:53 [ERROR] EKI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:54 [ERROR] HRYNSHP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:54 [ERROR] BRAHMINFRA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:54 [ERROR] MAKERSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:54 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (1mo 1927-09-12 -> 2026-08-18)
+2026-08-18 15:38:55 [ERROR] VGCL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:56 [ERROR] ANSALBU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:56 [ERROR] UPHOT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:56 [ERROR] BPLPHARMA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:56 [ERROR] TRANSCOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:57 [ERROR] PHOENXINTL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:57 [ERROR] RTSPOWR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:57 [ERROR] POEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:58 [ERROR] SUNLOC.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:38:59 [ERROR] DHABRIYA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:00 [ERROR] BRIGHTBR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:00 [ERROR] HINDALUMI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:00 [ERROR] ITL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:00 [ERROR] SIEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:00 [ERROR] HINDADH.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:01 [ERROR] ONIXSOLAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:01 [ERROR] WATERBASE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:01 [ERROR] TRITONV.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:01 [ERROR] MUKESHB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:01 [ERROR] BLUECLOUDS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:01 [ERROR] SHRJAGP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:02 [ERROR] SHIVACEM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:02 [ERROR] PARNAXLAB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:02 [ERROR] LOTUSCHO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:02 [ERROR] ALFREDHE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:03 [ERROR] DEEP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:03 [ERROR] GENESYS-RE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:03 [ERROR] VIRAT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:03 [ERROR] LKPSEC.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:03 [ERROR] NTCIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:03 [ERROR] BENARAS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:04 [ERROR] AVANCE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:04 [ERROR] COMPEAU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:04 [ERROR] EMPIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:04 [ERROR] KSE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:04 [ERROR] 
+149 Failed downloads:
+2026-08-18 15:39:04 [ERROR] ['ARYAMAN.NS', 'CGVAK.NS', 'MILKYMIST.NS', 'SVGLOBAL.NS', 'MOHITE.NS', 'MANBRO.NS', 'TGVSL.NS', 'ORIRAIL.NS', 'TANAA.NS', 'SAB.NS', 'SPELS.NS', 'SGRL.NS', 'WARDINMOBI.NS', 'NICCOPAR.NS', 'VIRTUALG.NS', 'YOGI.NS', 'SHIVAAGRO.NS', 'MLKFOOD.NS', 'MSL.NS', 'SUPTANERY.NS', 'SAYAJIIND.NS', 'ISTLTD.NS', 'ASIANTNE.NS', 'LAKSHMIMIL.NS', 'SIMPLXREA.NS', 'SHANTI-RE.NS', 'KMCSHIL.NS', 'WHBRADY.NS', 'INDOKEM.NS', 'VADILENT.NS', 'SHILGRAVQ.NS', 'KAMANWALA.NS', 'SWARNSAR.NS', 'ARCL.NS', 'SAICAPI.NS', 'PANORAMA.NS', 'MYSORPETRO.NS', 'HAMPTON.NS', 'VOITHPAPR.NS', 'ADDIND.NS', 'ADVIKCA.NS', 'SHRADDHA.NS', 'FREDUN.NS', 'PBMPOLY.NS', 'RRECL.NS', 'JENBURPH.NS', 'LEENEE.NS', 'OPTIFIN.NS', 'ENKEIWHEL.NS', 'SUMEDHA.NS', 'SRIKPRIND.NS', 'AMARJOTHI.NS', 'SWISSMLTRY.NS', 'ALUFLUOR.NS', 'VIJSOLX.NS', 'CRAVATEX.NS', 'KANCOTEA.NS', 'CHEMCRUX.NS', 'IPRINGLTD.NS', 'MINALIND.NS', 'SEKURITIND.NS', 'VIVOBIOT.NS', 'LADDERUP.NS', 'UDAYJEW.NS', 'EBIX.NS', 'PACIFICI.NS', 'TOYAMSL.NS', 'MPDL.NS', 'LANCER.NS', 'JYOTIRES.NS', 'AUSTENG.NS', 'MIIL.NS', 'SUNSHIEL.NS', 'PANCHMAHQ.NS', 'TUTIALKA.NS', 'ASSAMENT.NS', 'ONEGLOBAL.NS', 'EASTWEST.NS', 'STLSTRINF.NS', 'CRSL.NS', 'GKB.NS', 'CFEL.NS', 'HAZOOR.NS', 'AZADIND.NS', 'AMAL.NS', 'ODYCORP.NS', 'PERMAGN.NS', 'TERAI.NS', 'SGLRES.NS', 'SHERVANI.NS', 'SUNRAKSHAK.NS', 'MEDICAPQ.NS', 'KJMCFIN.NS', 'VASUPRADA.NS', 'ACGL.NS', 'VEDAVAAG.NS', 'VTMLTD.NS', 'PRISMX.NS', 'ANDREWYU.NS', 'MKEXIM.NS', 'HBPOR.NS', 'DHATRE.NS', 'POLYSPIN.NS', 'AXTEL.NS', 'ECORECO.NS', 'EKI.NS', 'HRYNSHP.NS', 'BRAHMINFRA.NS', 'MAKERSL.NS', 'VGCL.NS', 'ANSALBU.NS', 'UPHOT.NS', 'BPLPHARMA.NS', 'TRANSCOR.NS', 'PHOENXINTL.NS', 'RTSPOWR.NS', 'POEL.NS', 'SUNLOC.NS', 'DHABRIYA.NS', 'BRIGHTBR.NS', 'HINDALUMI.NS', 'ITL.NS', 'SIEL.NS', 'HINDADH.NS', 'ONIXSOLAR.NS', 'WATERBASE.NS', 'TRITONV.NS', 'MUKESHB.NS', 'BLUECLOUDS.NS', 'SHRJAGP.NS', 'SHIVACEM.NS', 'PARNAXLAB.NS', 'LOTUSCHO.NS', 'ALFREDHE.NS', 'DEEP.NS', 'GENESYS-RE.NS', 'VIRAT.NS', 'LKPSEC.NS', 'NTCIND.NS', 'BENARAS.NS', 'AVANCE.NS', 'COMPEAU.NS', 'EMPIND.NS', 'KSE.NS']: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:39:04 [ERROR] ['REC.NS', 'LTIM.NS', 'APOORVA.NS', 'ZOMATO.NS']: possibly delisted; no timezone found
+2026-08-18 15:39:04 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (1mo 1927-09-12 -> 2026-08-18)
+2026-08-18 15:39:05 [INFO] STAGE 2 Complete: 109 monthly ATH breakouts detected!
+2026-08-18 15:39:05 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-18 15:39:06 [INFO] STAGE 5: Building Sector Heatmap Data...
+2026-08-18 15:39:06 [INFO] Building Sector Heatmap Data...
+2026-08-18 15:39:06 [INFO] Total unique tickers for sector mapping: 141
+2026-08-18 15:39:26 [INFO] SUCCESS: Sector Heatmap saved -> sector_heatmap_data.json (10 sectors)
+2026-08-18 15:39:26 [INFO] STAGE 5 Complete: Sector heatmap data generated.
+2026-08-18 15:39:26 [INFO] STAGE 6: Running Historical Backtesting...
+2026-08-18 15:39:26 [INFO] STAGE 6 Skipped: backtest_engine module not available.
+2026-08-18 15:39:26 [INFO] STAGE 7: Building IPO Performance Tracker...
+2026-08-18 15:39:26 [INFO] =================================================================
+2026-08-18 15:39:26 [INFO] STOKS V4.1 — Live IPO Performance Tracker Starting...
+2026-08-18 15:39:26 [INFO] =================================================================
+2026-08-18 15:39:26 [INFO] Loaded 925 IPOs from live internet fetcher.
+2026-08-18 15:39:26 [INFO] Downloading batch 2-day price data for 925 IPO tickers...
+2026-08-18 15:39:43 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:40:01 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:40:10 [ERROR] 
+2 Failed downloads:
+2026-08-18 15:40:10 [ERROR] ['APOORVA.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:40:10 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:40:10 [INFO] Successfully fetched live prices for 914 IPO tickers.
+2026-08-18 15:40:10 [INFO] SUCCESS: IPO Performance data saved -> ipo_performance_data.csv (925 IPOs)
+2026-08-18 15:40:10 [INFO] =================================================================
+2026-08-18 15:40:10 [INFO] IPO TRACKER COMPLETE: 925 IPOs processed successfully.
+2026-08-18 15:40:10 [INFO] =================================================================
+2026-08-18 15:40:10 [INFO] STAGE 7 Complete: IPO performance data generated.
+2026-08-18 15:40:10 [INFO] STAGE 8: Running AI Smart Analysis Engine...
+2026-08-18 15:40:10 [INFO] ============================================================
+2026-08-18 15:40:10 [INFO] STOKS AI — Smart Analysis Engine V1.0 Starting...
+2026-08-18 15:40:10 [INFO] ============================================================
+2026-08-18 15:40:10 [INFO]   Processing 50 rows from recent_ipo_breakouts_5y.csv...
+2026-08-18 15:40:10 [INFO]   Processing 51 rows from master_scan_results.csv...
+2026-08-18 15:40:10 [INFO]   Processing 109 rows from monthly_ath_breakouts.csv...
+2026-08-18 15:40:10 [INFO]   Generated 141 AI stock reports.
+2026-08-18 15:40:10 [INFO]   Market Sentiment: MODERATELY BULLISH
+2026-08-18 15:40:10 [INFO]   Top Picks: Prabha (PRABHA), A (ABCOTS), Regaal (REGAAL), Jyoti (JYOTICNC), Concord (CONCORDBIO)
+2026-08-18 15:40:10 [INFO] SUCCESS: AI Analysis Report saved -> ai_analysis_report.json
+2026-08-18 15:40:10 [INFO] STAGE 8 Complete: AI analysis report generated.
+2026-08-18 15:40:10 [INFO] STAGE 4: Regenerating STOKS V4.1 AI Dashboard...
+2026-08-18 15:40:10 [INFO] ================================================================================
+2026-08-18 15:40:10 [INFO]  STOKS V4.1 AI PRODUCTION PIPELINE FINISHED SUCCESSFULLY!
+2026-08-18 15:40:10 [INFO] ================================================================================
+2026-08-18 15:43:37 [INFO] Fetching FII / DII Institutional Flows...
+2026-08-18 15:43:38 [ERROR] Moneycontrol FII/DII fetch exception: Expecting value: line 1 column 1 (char 0)
+2026-08-18 15:43:39 [INFO] SUCCESS: FII/DII Flow data saved -> fii_dii_data.json
+2026-08-18 15:43:39 [INFO]   FII Net: \u20b91.0 Cr | DII Net: \u20b91.0 Cr | Bias: STRONGLY BULLISH
+2026-08-18 15:43:39 [ERROR] Failed to save fii_dii_data.json: 'charmap' codec can't encode character '\u20b9' in position 18: character maps to <undefined>
+2026-08-18 15:44:05 [INFO] Fetching FII / DII Institutional Flows...
+2026-08-18 15:44:08 [INFO] SUCCESS: FII/DII Flow data saved -> fii_dii_data.json
+2026-08-18 15:44:08 [INFO]   FII Net: Rs 420.5 Cr | DII Net: Rs 890.3 Cr | Bias: STRONGLY BULLISH
+2026-08-18 15:45:13 [INFO] Fetching Live Stock News & Catalysts...
+2026-08-18 15:45:13 [INFO] Fetching live news for 141 breakout stocks in parallel...
+2026-08-18 15:45:41 [INFO] SUCCESS: Live News data saved -> stock_news_data.json (141 stocks mapped)
+2026-08-18 15:47:06 [INFO] ============================================================
+2026-08-18 15:47:06 [INFO] STOKS AI — Smart Analysis Engine V1.1 Starting...
+2026-08-18 15:47:06 [INFO] ============================================================
+2026-08-18 15:47:06 [INFO]   Processing 50 rows from recent_ipo_breakouts_5y.csv...
+2026-08-18 15:47:06 [INFO]   Processing 51 rows from master_scan_results.csv...
+2026-08-18 15:47:06 [INFO]   Processing 109 rows from monthly_ath_breakouts.csv...
+2026-08-18 15:47:06 [INFO]   Generated 141 AI stock reports.
+2026-08-18 15:47:06 [INFO]   Market Sentiment: MODERATELY BULLISH
+2026-08-18 15:47:06 [INFO]   Top Picks: Prabha (PRABHA), A (ABCOTS), Regaal (REGAAL), Jyoti (JYOTICNC), Concord (CONCORDBIO)
+2026-08-18 15:47:06 [INFO] SUCCESS: AI Analysis Report saved -> ai_analysis_report.json
+2026-08-18 15:48:17 [INFO] ================================================================================
+2026-08-18 15:48:17 [INFO]  STOKS V4.0 — ENTERPRISE PRODUCTION BREAKOUT SUITE 
+2026-08-18 15:48:17 [INFO]  Parameters: RSI(9) Fast Momentum + BB(20,2) + ATR SL + Charts + Heatmap + Backtest
+2026-08-18 15:48:17 [INFO] ================================================================================
+2026-08-18 15:48:17 [INFO] Resolved 925 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-18 15:48:17 [INFO] Combined Universe Total Tickers: 1004
+2026-08-18 15:48:17 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-18 15:48:30 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: REC.NS"}}}
+2026-08-18 15:48:31 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:48:39 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:48:39 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:48:53 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=60d)
+2026-08-18 15:49:02 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:49:11 [ERROR] 
+5 Failed downloads:
+2026-08-18 15:49:11 [ERROR] ['REC.NS', 'ZOMATO.NS', 'LTIM.NS', 'APOORVA.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:49:11 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=60d)
+2026-08-18 15:49:14 [INFO] STAGE 1 Complete: 51 daily breakouts & 50 5-Year IPO breakouts detected!
+2026-08-18 15:49:14 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-18 15:49:23 [ERROR] SHIVACEM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:23 [ERROR] MOHITE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:27 [ERROR] HAMPTON.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:30 [ERROR] SPELS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:30 [ERROR] AXTEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:31 [ERROR] ALUFLUOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:37 [ERROR] AZADIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:38 [ERROR] MUKESHB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:38 [ERROR] TUTIALKA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:42 [ERROR] TRITONV.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:44 [ERROR] PANORAMA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:45 [ERROR] TERAI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:50 [ERROR] VASUPRADA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:49:51 [ERROR] SWARNSAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:02 [ERROR] TRANSCOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:04 [ERROR] PERMAGN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:13 [ERROR] SUNSHIEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:19 [ERROR] HAZOOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:35 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-18 15:50:37 [ERROR] ITL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:37 [ERROR] MKEXIM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:42 [ERROR] NICCOPAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:42 [ERROR] ASIANTNE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:42 [ERROR] SRIKPRIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:46 [ERROR] MAKERSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:49 [ERROR] SHERVANI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:51 [ERROR] ENKEIWHEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:51 [ERROR] EASTWEST.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:50:53 [ERROR] VIRTUALG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:02 [ERROR] LAKSHMIMIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:03 [ERROR] BRIGHTBR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:03 [ERROR] TGVSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:04 [ERROR] MYSORPETRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:05 [ERROR] UPHOT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:05 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-18 15:51:07 [ERROR] SGRL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:08 [ERROR] SAYAJIIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:09 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-18 15:51:10 [ERROR] ADDIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:10 [ERROR] MLKFOOD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:11 [ERROR] ODYCORP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:11 [ERROR] SGLRES.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:11 [ERROR] MPDL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:12 [ERROR] VTMLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:13 [ERROR] AMAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:13 [ERROR] EBIX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:13 [ERROR] SUMEDHA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:14 [ERROR] VADILENT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:14 [ERROR] TOYAMSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:14 [ERROR] ARYAMAN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] FREDUN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] ANDREWYU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] ACGL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] RRECL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] KJMCFIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] LANCER.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:15 [ERROR] CRAVATEX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:16 [ERROR] SVGLOBAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:18 [ERROR] ARCL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:19 [ERROR] CRSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:19 [ERROR] SHRJAGP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:22 [ERROR] MIIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:23 [ERROR] MSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:24 [ERROR] VIJSOLX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:24 [ERROR] SUNLOC.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:25 [ERROR] HRYNSHP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:25 [ERROR] LADDERUP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:26 [ERROR] WATERBASE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:27 [ERROR] SHRADDHA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:28 [ERROR] VIRAT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:28 [ERROR] ISTLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:31 [ERROR] PARNAXLAB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:33 [ERROR] VIVOBIOT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:33 [ERROR] STLSTRINF.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:33 [ERROR] SIEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:35 [ERROR] WARDINMOBI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:36 [ERROR] GKB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:37 [ERROR] AMARJOTHI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:37 [ERROR] MINALIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:38 [ERROR] KSE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:38 [ERROR] POLYSPIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:38 [ERROR] HBPOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:43 [ERROR] LKPSEC.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:44 [ERROR] SUPTANERY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:44 [ERROR] SHANTI-RE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:45 [ERROR] BLUECLOUDS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:45 [ERROR] SUNRAKSHAK.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:46 [ERROR] KMCSHIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:46 [ERROR] BPLPHARMA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:46 [ERROR] VGCL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:46 [ERROR] BENARAS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:47 [ERROR] ORIRAIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:47 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (1mo 1927-09-12 -> 2026-08-18)
+2026-08-18 15:51:47 [ERROR] IPRINGLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:48 [ERROR] DEEP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:48 [ERROR] AVANCE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:48 [ERROR] EKI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:48 [ERROR] SIMPLXREA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:48 [ERROR] PBMPOLY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:49 [ERROR] MANBRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:49 [ERROR] LOTUSCHO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:50 [ERROR] CFEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:50 [ERROR] MILKYMIST.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:50 [ERROR] ALFREDHE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:52 [ERROR] INDOKEM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:52 [ERROR] CHEMCRUX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:53 [ERROR] SAICAPI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:53 [ERROR] COMPEAU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:53 [ERROR] YOGI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:57 [ERROR] ONEGLOBAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:57 [ERROR] $APOORVA.NS: possibly delisted; no timezone found
+2026-08-18 15:51:58 [ERROR] JYOTIRES.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:58 [ERROR] HINDALUMI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:59 [ERROR] ANSALBU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:51:59 [ERROR] GENESYS-RE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:52:00 [ERROR] SEKURITIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:43 [ERROR] VEDAVAAG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:44 [ERROR] HINDADH.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:44 [ERROR] ONIXSOLAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:44 [ERROR] RTSPOWR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:45 [ERROR] PANCHMAHQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:45 [ERROR] EMPIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:45 [ERROR] AUSTENG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:45 [ERROR] SAB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:46 [ERROR] SHIVAAGRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:46 [ERROR] SWISSMLTRY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:46 [ERROR] UDAYJEW.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:50 [ERROR] POEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:50 [ERROR] 
+247 Failed downloads:
+2026-08-18 15:57:50 [ERROR] ['SHIVACEM.NS', 'MOHITE.NS', 'HAMPTON.NS', 'SPELS.NS', 'AXTEL.NS', 'ALUFLUOR.NS', 'AZADIND.NS', 'MUKESHB.NS', 'TUTIALKA.NS', 'TRITONV.NS', 'PANORAMA.NS', 'TERAI.NS', 'VASUPRADA.NS', 'SWARNSAR.NS', 'TRANSCOR.NS', 'PERMAGN.NS', 'SUNSHIEL.NS', 'HAZOOR.NS', 'ITL.NS', 'MKEXIM.NS', 'NICCOPAR.NS', 'ASIANTNE.NS', 'SRIKPRIND.NS', 'MAKERSL.NS', 'SHERVANI.NS', 'ENKEIWHEL.NS', 'EASTWEST.NS', 'VIRTUALG.NS', 'LAKSHMIMIL.NS', 'BRIGHTBR.NS', 'TGVSL.NS', 'MYSORPETRO.NS', 'UPHOT.NS', 'SGRL.NS', 'SAYAJIIND.NS', 'ADDIND.NS', 'MLKFOOD.NS', 'ODYCORP.NS', 'SGLRES.NS', 'MPDL.NS', 'VTMLTD.NS', 'AMAL.NS', 'EBIX.NS', 'SUMEDHA.NS', 'VADILENT.NS', 'TOYAMSL.NS', 'ARYAMAN.NS', 'FREDUN.NS', 'ANDREWYU.NS', 'ACGL.NS', 'RRECL.NS', 'KJMCFIN.NS', 'LANCER.NS', 'CRAVATEX.NS', 'SVGLOBAL.NS', 'ARCL.NS', 'CRSL.NS', 'SHRJAGP.NS', 'MIIL.NS', 'MSL.NS', 'VIJSOLX.NS', 'SUNLOC.NS', 'HRYNSHP.NS', 'LADDERUP.NS', 'WATERBASE.NS', 'SHRADDHA.NS', 'VIRAT.NS', 'ISTLTD.NS', 'PARNAXLAB.NS', 'VIVOBIOT.NS', 'STLSTRINF.NS', 'SIEL.NS', 'WARDINMOBI.NS', 'GKB.NS', 'AMARJOTHI.NS', 'MINALIND.NS', 'KSE.NS', 'POLYSPIN.NS', 'HBPOR.NS', 'LKPSEC.NS', 'SUPTANERY.NS', 'SHANTI-RE.NS', 'BLUECLOUDS.NS', 'SUNRAKSHAK.NS', 'KMCSHIL.NS', 'BPLPHARMA.NS', 'VGCL.NS', 'BENARAS.NS', 'ORIRAIL.NS', 'IPRINGLTD.NS', 'DEEP.NS', 'AVANCE.NS', 'EKI.NS', 'SIMPLXREA.NS', 'PBMPOLY.NS', 'MANBRO.NS', 'LOTUSCHO.NS', 'CFEL.NS', 'MILKYMIST.NS', 'ALFREDHE.NS', 'INDOKEM.NS', 'CHEMCRUX.NS', 'SAICAPI.NS', 'COMPEAU.NS', 'YOGI.NS', 'ONEGLOBAL.NS', 'JYOTIRES.NS', 'HINDALUMI.NS', 'ANSALBU.NS', 'GENESYS-RE.NS', 'SEKURITIND.NS', 'VEDAVAAG.NS', 'HINDADH.NS', 'ONIXSOLAR.NS', 'RTSPOWR.NS', 'PANCHMAHQ.NS', 'EMPIND.NS', 'AUSTENG.NS', 'SAB.NS', 'SHIVAAGRO.NS', 'SWISSMLTRY.NS', 'UDAYJEW.NS', 'POEL.NS']: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 15:57:50 [ERROR] ['UTKARSHBNK.NS', 'LCL.NS', 'EFCIL.NS', 'ORCHASP.NS', 'SCILAL.NS', 'VOITHPAPR.NS', 'PAVNAIND.NS', 'ASSAMENT.NS', 'DECNGOLD.NS', 'MEDICAPQ.NS', 'POCL.NS', 'WHBRADY.NS', 'SCPL.NS', 'OPTIFIN.NS', 'COMSYN.NS', 'CGVAK.NS', 'HCLTECH.NS', 'OFSS.NS', 'ATL.NS', 'ADVIKCA.NS', 'DENTA.NS', 'TRANSPEK.NS', 'TATACONSUM.NS', 'PACIFICI.NS', 'BESTAGRO.NS', 'BHARATCOAL.NS', 'EIEL.NS', 'ELANTAS.NS', 'ARDEE.NS', 'SURAJEST.NS', 'SAHLIBHFI.NS', 'COALINDIA.NS', 'MONEYBOXX.NS', 'MANKIND.NS', 'EPACK.NS', 'HARIOMPIPE.NS', 'BRAHMINFRA.NS', 'JYOTICNC.NS', 'PIXTRANS.NS', 'NIVABUPA.NS', 'MEDIASSIST.NS', 'HEROMOTOCO.NS', 'DHABRIYA.NS', 'CMLL.NS', 'PREMCO.NS', 'CEIGALL.NS', 'TANAA.NS', 'SEDEMAC.NS', 'CORDELIA.NS', 'ECORECO.NS', 'DHATRE.NS', 'KRONOX.NS', 'EUREKAFORB.NS', 'SUKHJITS.NS', 'PHOENXINTL.NS', 'SAGILITY.BO', 'BHARATSE.NS', 'AADHARHFC.NS', 'AEROFLEX.NS', 'KALAMANDIR.NS', 'NTCIND.NS', 'KROSS.NS', 'TECHNVISN.NS', 'EMMVEE.NS', 'AKCAPIT.NS', 'LEXUS.NS', 'URAVIDEF.NS', 'DCI.NS', 'ALGOQUANT.NS', 'DJML.NS', 'FIBERWEB.NS', 'JNKINDIA.NS', 'PYRAMID.NS', 'MCCHRLS-B.NS', 'PLAZACABLE.NS', 'SPECTRUM.NS', 'CHEMBONDCH.NS', 'CLEANMAX.NS', 'TINNARUBR.NS', 'BOROSCI.NS', 'ADANIPORTS.NS', 'FORCEMOT.NS', 'SENCO.NS', 'MARKOLINES.NS', 'PRISMX.NS', 'JSFB.NS', 'PRAVEG.NS', 'KANCOTEA.NS', 'BHARTIHEXA.NS', 'RETAIL.NS', 'PACEDIGITK.NS', 'RAMBHAJO.NS', 'LLOYDSME.NS', 'MITCON.NS', 'KAMANWALA.NS', 'E2E.NS', 'AKUMS.NS', 'WESTLIFE.NS', 'TAALTECH.NS', 'ORKLAINDIA.NS', 'SHILGRAVQ.NS', 'TATASTEEL.NS', 'SVLL.NS', 'SADBHAV.NS', 'TENNIND.NS', 'JENBURPH.NS', 'LEENEE.NS', 'PAKKA.NS', 'JAYKAY.NS', 'INTERARCH.NS', 'FILATFASH.NS', 'RADHIKAJWE.NS', 'BTTL.NS', 'GODIGIT.NS', 'TICL.NS', 'COMFINTE.NS', 'SAMHI.NS', 'THAKDEV.NS', 'WAAREERTL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-08-18 15:57:50 [ERROR] ['REC.NS', 'ZOMATO.NS', 'LTIM.NS', 'APOORVA.NS']: possibly delisted; no timezone found
+2026-08-18 15:57:50 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (1mo 1927-09-12 -> 2026-08-18)
+2026-08-18 15:57:51 [INFO] STAGE 2 Complete: 100 monthly ATH breakouts detected!
+2026-08-18 15:57:51 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-18 15:57:51 [INFO] STAGE 5: Building Sector Heatmap Data...
+2026-08-18 15:57:51 [INFO] Building Sector Heatmap Data...
+2026-08-18 15:57:51 [INFO] Total unique tickers for sector mapping: 133
+2026-08-18 15:58:14 [INFO] SUCCESS: Sector Heatmap saved -> sector_heatmap_data.json (10 sectors)
+2026-08-18 15:58:14 [INFO] STAGE 5 Complete: Sector heatmap data generated.
+2026-08-18 15:58:14 [INFO] STAGE 6: Running Historical Backtesting...
+2026-08-18 15:58:14 [INFO] STAGE 6 Skipped: backtest_engine module not available.
+2026-08-18 15:58:14 [INFO] STAGE 7: Building IPO Performance Tracker...
+2026-08-18 15:58:14 [INFO] =================================================================
+2026-08-18 15:58:14 [INFO] STOKS V4.1 — Live IPO Performance Tracker Starting...
+2026-08-18 15:58:14 [INFO] =================================================================
+2026-08-18 15:58:14 [INFO] Loaded 925 IPOs from live internet fetcher.
+2026-08-18 15:58:14 [INFO] Downloading batch 2-day price data for 925 IPO tickers...
+2026-08-18 15:58:43 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:58:52 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:59:02 [ERROR] 
+2 Failed downloads:
+2026-08-18 15:59:02 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=5d)
+2026-08-18 15:59:02 [ERROR] ['APOORVA.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 15:59:02 [INFO] Successfully fetched live prices for 914 IPO tickers.
+2026-08-18 15:59:02 [INFO] SUCCESS: IPO Performance data saved -> ipo_performance_data.csv (925 IPOs)
+2026-08-18 15:59:02 [INFO] =================================================================
+2026-08-18 15:59:02 [INFO] IPO TRACKER COMPLETE: 925 IPOs processed successfully.
+2026-08-18 15:59:02 [INFO] =================================================================
+2026-08-18 15:59:02 [INFO] STAGE 7 Complete: IPO performance data generated.
+2026-08-18 15:59:02 [INFO] STAGE 9: Fetching FII / DII Institutional Flows...
+2026-08-18 15:59:02 [INFO] Fetching FII / DII Institutional Flows...
+2026-08-18 15:59:04 [INFO] SUCCESS: FII/DII Flow data saved -> fii_dii_data.json
+2026-08-18 15:59:04 [INFO]   FII Net: Rs 420.5 Cr | DII Net: Rs 890.3 Cr | Bias: STRONGLY BULLISH
+2026-08-18 15:59:04 [INFO] STAGE 9 Complete: FII/DII flow data generated.
+2026-08-18 15:59:04 [INFO] STAGE 10: Fetching Live Stock News & Catalysts...
+2026-08-18 15:59:04 [INFO] Fetching Live Stock News & Catalysts...
+2026-08-18 15:59:04 [ERROR] No CSV files found for news fetching.
+2026-08-18 15:59:04 [INFO] STAGE 10 Complete: Stock news data generated.
+2026-08-18 15:59:04 [INFO] STAGE 8: Running AI Smart Analysis Engine...
+2026-08-18 15:59:04 [INFO] ============================================================
+2026-08-18 15:59:04 [INFO] STOKS AI — Smart Analysis Engine V1.1 Starting...
+2026-08-18 15:59:04 [INFO] ============================================================
+2026-08-18 15:59:04 [INFO]   Processing 50 rows from recent_ipo_breakouts_5y.csv...
+2026-08-18 15:59:04 [INFO]   Processing 51 rows from master_scan_results.csv...
+2026-08-18 15:59:04 [INFO]   Processing 100 rows from monthly_ath_breakouts.csv...
+2026-08-18 15:59:04 [INFO]   Generated 133 AI stock reports.
+2026-08-18 15:59:04 [INFO]   Market Sentiment: MODERATELY BULLISH
+2026-08-18 15:59:04 [INFO]   Top Picks: Prabha (PRABHA), A (ABCOTS), Regaal (REGAAL), Jyoti (JYOTICNC), Concord (CONCORDBIO)
+2026-08-18 15:59:04 [INFO] SUCCESS: AI Analysis Report saved -> ai_analysis_report.json
+2026-08-18 15:59:04 [INFO] STAGE 8 Complete: AI analysis report generated.
+2026-08-18 15:59:04 [INFO] STAGE 4: Regenerating STOKS V4.2 Workstation Dashboard...
+2026-08-18 15:59:04 [INFO] ================================================================================
+2026-08-18 15:59:04 [INFO]  STOKS V4.2 ENTERPRISE PIPELINE FINISHED SUCCESSFULLY!
+2026-08-18 15:59:04 [INFO] ================================================================================
+2026-08-18 16:09:46 [INFO] [Alerts] Dispatching alerts for 11 Tier 1 signals...
+2026-08-18 16:09:46 [INFO]   \U0001f534 TIER 1 ALERT: Prabha Energy Limited (PRABHA.NS) -> Entry: \u20b9192.2 | Score: 100
+2026-08-18 16:09:46 [ERROR] [Alerts] Dispatch error: 'charmap' codec can't encode character '\U0001f534' in position 9: character maps to <undefined>
+2026-08-18 16:09:56 [INFO] [Alerts] Dispatching alerts for 11 Tier 1 signals...
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Prabha Energy Limited (PRABHA.NS) -> Entry: Rs 192.2 | Score: 100
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] A B Cotspin India Limited (ABCOTS.NS) -> Entry: Rs 217.4 | Score: 100
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Regaal Resources Limited (REGAAL.NS) -> Entry: Rs 99.53 | Score: 100
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Jyoti CNC Automation Limited (JYOTICNC.NS) -> Entry: Rs 929.2 | Score: 100
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Valiant Laboratories Limited (VALIANTLAB.NS) -> Entry: Rs 90.85 | Score: 90
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Bilcare Limited (BI.NS) -> Entry: Rs 101.38 | Score: 90
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Gujarat Kidney And Super Speciality Limited (GKSL.NS) -> Entry: Rs 153.46 | Score: 90
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] PAKKA LIMITED (PAKKA.NS) -> Entry: Rs 95.49 | Score: 90
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] Baazar Style Retail Limited (STYLEBAAZA.NS) -> Entry: Rs 402.65 | Score: 90
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] A B Infrabuild Limited (ABINFRA.NS) -> Entry: Rs 12.57 | Score: 90
+2026-08-18 16:09:56 [INFO]   [TIER 1 ALERT] SONAM LIMITED (SONAMLTD.NS) -> Entry: Rs 60.31 | Score: 90
+2026-08-18 16:22:41 [INFO] ================================================================================
+2026-08-18 16:22:41 [INFO]  STOKS V4.0 — ENTERPRISE PRODUCTION BREAKOUT SUITE 
+2026-08-18 16:22:41 [INFO]  Parameters: RSI(9) Fast Momentum + BB(20,2) + ATR SL + Charts + Heatmap + Backtest
+2026-08-18 16:22:41 [INFO] ================================================================================
+2026-08-18 16:22:41 [INFO] Resolved 925 Main Board IPOs listed within last 5 years (2021-2026)
+2026-08-18 16:22:41 [INFO] Combined Universe Total Tickers: 1004
+2026-08-18 16:22:41 [INFO] STAGE 1: Downloading 60-day daily market data...
+2026-08-18 16:23:08 [ERROR] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-08-18 16:23:10 [ERROR] $LTIM.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:23:34 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=60d)
+2026-08-18 16:23:38 [ERROR] $ZOMATO.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:23:42 [ERROR] $REC.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:23:52 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:23:56 [ERROR] 
+5 Failed downloads:
+2026-08-18 16:23:56 [ERROR] ['LTIM.NS', 'ZOMATO.NS', 'REC.NS', 'APOORVA.NS']: possibly delisted; no price data found  (period=60d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:23:56 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=60d)
+2026-08-18 16:23:58 [INFO] STAGE 1 Complete: 51 daily breakouts & 50 5-Year IPO breakouts detected!
+2026-08-18 16:23:58 [INFO] STAGE 2: Downloading Monthly Timeframe Data...
+2026-08-18 16:23:58 [ERROR] TUTIALKA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:23:59 [ERROR] PBMPOLY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:23:59 [ERROR] SPELS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:23:59 [ERROR] SUNLOC.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:23:59 [ERROR] HBPOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:23:59 [ERROR] SIMPLXREA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:00 [ERROR] SHRJAGP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:00 [ERROR] VEDAVAAG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:00 [ERROR] POLYSPIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:01 [ERROR] ACGL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:01 [ERROR] SWISSMLTRY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:01 [ERROR] ODYCORP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:01 [ERROR] VASUPRADA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:01 [ERROR] CRSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:01 [ERROR] CHEMCRUX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:02 [ERROR] SHRADDHA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:02 [ERROR] DHABRIYA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:03 [ERROR] MSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:03 [ERROR] SVGLOBAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:03 [ERROR] SHILGRAVQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:03 [ERROR] HAMPTON.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:04 [ERROR] POEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:04 [ERROR] SHIVAAGRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:04 [ERROR] LOTUSCHO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:04 [ERROR] HRYNSHP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:05 [ERROR] SUNSHIEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:06 [ERROR] AZADIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:06 [ERROR] SHANTI-RE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] VADILENT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] SIEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] YOGI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] BLUECLOUDS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] TERAI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] SRIKPRIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:07 [ERROR] ASIANTNE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] $LTIM.NS: possibly delisted; no timezone found
+2026-08-18 16:24:08 [ERROR] BRIGHTBR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] MLKFOOD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] ALUFLUOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] ARCL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] UPHOT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] IPRINGLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:08 [ERROR] SHERVANI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] PANORAMA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] VOITHPAPR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] ENKEIWHEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] LADDERUP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] EKI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] FREDUN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] AUSTENG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:09 [ERROR] SAICAPI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:10 [ERROR] MOHITE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:10 [ERROR] SUMEDHA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:11 [ERROR] BRAHMINFRA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:12 [ERROR] ADDIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:12 [ERROR] MAKERSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:13 [ERROR] SHIVACEM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:13 [ERROR] LKPSEC.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:13 [ERROR] INDOKEM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:13 [ERROR] CFEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:13 [ERROR] WATERBASE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] BENARAS.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] AMARJOTHI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] STLSTRINF.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] MPDL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] MKEXIM.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] BPLPHARMA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:14 [ERROR] MINALIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:15 [ERROR] KJMCFIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:15 [ERROR] DHATRE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:15 [ERROR] ALFREDHE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] MYSORPETRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] NTCIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] GKB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] VIJSOLX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] VIRTUALG.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] PANCHMAHQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:16 [ERROR] PARNAXLAB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:17 [ERROR] AXTEL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:17 [ERROR] SUNRAKSHAK.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:17 [ERROR] SWARNSAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:17 [ERROR] ECORECO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:17 [ERROR] EBIX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:18 [ERROR] AMAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:18 [ERROR] KANCOTEA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:18 [ERROR] VIRAT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:18 [ERROR] ARYAMAN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:18 [ERROR] GENESYS-RE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:18 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (1mo 1927-09-12 -> 2026-08-18)
+2026-08-18 16:24:19 [ERROR] $ZOMATO.NS: possibly delisted; no timezone found
+2026-08-18 16:24:19 [ERROR] ANDREWYU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] CGVAK.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] MILKYMIST.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] RTSPOWR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] EMPIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] SGRL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] TANAA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] ORIRAIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:20 [ERROR] $REC.NS: possibly delisted; no timezone found
+2026-08-18 16:24:21 [ERROR] KSE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:21 [ERROR] MEDICAPQ.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:21 [ERROR] LEENEE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:21 [ERROR] LAKSHMIMIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:21 [ERROR] KMCSHIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:21 [ERROR] MANBRO.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:22 [ERROR] HINDALUMI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:22 [ERROR] VIVOBIOT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:22 [ERROR] VTMLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:22 [ERROR] TRANSCOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:22 [ERROR] HAZOOR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:23 [ERROR] PACIFICI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:23 [ERROR] ONIXSOLAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:24 [ERROR] SAB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:24 [ERROR] ISTLTD.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:24 [ERROR] DEEP.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:24 [ERROR] UDAYJEW.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:24 [ERROR] AVANCE.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:25 [ERROR] MIIL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:25 [ERROR] SEKURITIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:25 [ERROR] COMPEAU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:25 [ERROR] LANCER.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:25 [ERROR] SUPTANERY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:26 [ERROR] TRITONV.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:26 [ERROR] ADVIKCA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:26 [ERROR] WARDINMOBI.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:26 [ERROR] EASTWEST.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:27 [ERROR] RRECL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] ASSAMENT.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] OPTIFIN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] NICCOPAR.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] PRISMX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] SGLRES.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] PHOENXINTL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:28 [ERROR] JENBURPH.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:31 [ERROR] JYOTIRES.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:31 [ERROR] TOYAMSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:31 [ERROR] ITL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:31 [ERROR] $APOORVA.NS: possibly delisted; no timezone found
+2026-08-18 16:24:31 [ERROR] SAYAJIIND.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:31 [ERROR] ANSALBU.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:32 [ERROR] ONEGLOBAL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:32 [ERROR] HINDADH.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:32 [ERROR] VGCL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:32 [ERROR] CRAVATEX.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:33 [ERROR] PERMAGN.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:33 [ERROR] KAMANWALA.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:34 [ERROR] MUKESHB.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:37 [ERROR] TGVSL.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:37 [ERROR] WHBRADY.NS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:38 [ERROR] 
+149 Failed downloads:
+2026-08-18 16:24:38 [ERROR] ['TUTIALKA.NS', 'PBMPOLY.NS', 'SPELS.NS', 'SUNLOC.NS', 'HBPOR.NS', 'SIMPLXREA.NS', 'SHRJAGP.NS', 'VEDAVAAG.NS', 'POLYSPIN.NS', 'ACGL.NS', 'SWISSMLTRY.NS', 'ODYCORP.NS', 'VASUPRADA.NS', 'CRSL.NS', 'CHEMCRUX.NS', 'SHRADDHA.NS', 'DHABRIYA.NS', 'MSL.NS', 'SVGLOBAL.NS', 'SHILGRAVQ.NS', 'HAMPTON.NS', 'POEL.NS', 'SHIVAAGRO.NS', 'LOTUSCHO.NS', 'HRYNSHP.NS', 'SUNSHIEL.NS', 'AZADIND.NS', 'SHANTI-RE.NS', 'VADILENT.NS', 'SIEL.NS', 'YOGI.NS', 'BLUECLOUDS.NS', 'TERAI.NS', 'SRIKPRIND.NS', 'ASIANTNE.NS', 'BRIGHTBR.NS', 'MLKFOOD.NS', 'ALUFLUOR.NS', 'ARCL.NS', 'UPHOT.NS', 'IPRINGLTD.NS', 'SHERVANI.NS', 'PANORAMA.NS', 'VOITHPAPR.NS', 'ENKEIWHEL.NS', 'LADDERUP.NS', 'EKI.NS', 'FREDUN.NS', 'AUSTENG.NS', 'SAICAPI.NS', 'MOHITE.NS', 'SUMEDHA.NS', 'BRAHMINFRA.NS', 'ADDIND.NS', 'MAKERSL.NS', 'SHIVACEM.NS', 'LKPSEC.NS', 'INDOKEM.NS', 'CFEL.NS', 'WATERBASE.NS', 'BENARAS.NS', 'AMARJOTHI.NS', 'STLSTRINF.NS', 'MPDL.NS', 'MKEXIM.NS', 'BPLPHARMA.NS', 'MINALIND.NS', 'KJMCFIN.NS', 'DHATRE.NS', 'ALFREDHE.NS', 'MYSORPETRO.NS', 'NTCIND.NS', 'GKB.NS', 'VIJSOLX.NS', 'VIRTUALG.NS', 'PANCHMAHQ.NS', 'PARNAXLAB.NS', 'AXTEL.NS', 'SUNRAKSHAK.NS', 'SWARNSAR.NS', 'ECORECO.NS', 'EBIX.NS', 'AMAL.NS', 'KANCOTEA.NS', 'VIRAT.NS', 'ARYAMAN.NS', 'GENESYS-RE.NS', 'ANDREWYU.NS', 'CGVAK.NS', 'MILKYMIST.NS', 'RTSPOWR.NS', 'EMPIND.NS', 'SGRL.NS', 'TANAA.NS', 'ORIRAIL.NS', 'KSE.NS', 'MEDICAPQ.NS', 'LEENEE.NS', 'LAKSHMIMIL.NS', 'KMCSHIL.NS', 'MANBRO.NS', 'HINDALUMI.NS', 'VIVOBIOT.NS', 'VTMLTD.NS', 'TRANSCOR.NS', 'HAZOOR.NS', 'PACIFICI.NS', 'ONIXSOLAR.NS', 'SAB.NS', 'ISTLTD.NS', 'DEEP.NS', 'UDAYJEW.NS', 'AVANCE.NS', 'MIIL.NS', 'SEKURITIND.NS', 'COMPEAU.NS', 'LANCER.NS', 'SUPTANERY.NS', 'TRITONV.NS', 'ADVIKCA.NS', 'WARDINMOBI.NS', 'EASTWEST.NS', 'RRECL.NS', 'ASSAMENT.NS', 'OPTIFIN.NS', 'NICCOPAR.NS', 'PRISMX.NS', 'SGLRES.NS', 'PHOENXINTL.NS', 'JENBURPH.NS', 'JYOTIRES.NS', 'TOYAMSL.NS', 'ITL.NS', 'SAYAJIIND.NS', 'ANSALBU.NS', 'ONEGLOBAL.NS', 'HINDADH.NS', 'VGCL.NS', 'CRAVATEX.NS', 'PERMAGN.NS', 'KAMANWALA.NS', 'MUKESHB.NS', 'TGVSL.NS', 'WHBRADY.NS']: Period 'max' is invalid, must be one of: 1d, 5d
+2026-08-18 16:24:38 [ERROR] ['LTIM.NS', 'ZOMATO.NS', 'REC.NS', 'APOORVA.NS']: possibly delisted; no timezone found
+2026-08-18 16:24:38 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (1mo 1927-09-12 -> 2026-08-18)
+2026-08-18 16:24:39 [INFO] STAGE 2 Complete: 109 monthly ATH breakouts detected!
+2026-08-18 16:24:39 [INFO] STAGE 3: Generating Production Master Excel Report...
+2026-08-18 16:24:39 [INFO] STAGE 5: Building Sector Heatmap Data...
+2026-08-18 16:24:39 [INFO] Building Sector Heatmap Data...
+2026-08-18 16:24:39 [INFO] Total unique tickers for sector mapping: 141
+2026-08-18 16:24:59 [INFO] SUCCESS: Sector Heatmap saved -> sector_heatmap_data.json (10 sectors)
+2026-08-18 16:24:59 [INFO] STAGE 5 Complete: Sector heatmap data generated.
+2026-08-18 16:24:59 [INFO] STAGE 6: Running Historical Backtesting...
+2026-08-18 16:24:59 [INFO] STAGE 6 Skipped: backtest_engine module not available.
+2026-08-18 16:24:59 [INFO] STAGE 7: Building IPO Performance Tracker...
+2026-08-18 16:24:59 [INFO] =================================================================
+2026-08-18 16:24:59 [INFO] STOKS V4.1 — Live IPO Performance Tracker Starting...
+2026-08-18 16:24:59 [INFO] =================================================================
+2026-08-18 16:24:59 [INFO] Loaded 925 IPOs from live internet fetcher.
+2026-08-18 16:24:59 [INFO] Downloading batch 2-day price data for 925 IPO tickers...
+2026-08-18 16:25:18 [ERROR] $SAMBANDAM.NS: possibly delisted; no price data found  (period=5d)
+2026-08-18 16:25:38 [ERROR] $APOORVA.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:25:44 [ERROR] 
+2 Failed downloads:
+2026-08-18 16:25:44 [ERROR] ['SAMBANDAM.NS']: possibly delisted; no price data found  (period=5d)
+2026-08-18 16:25:44 [ERROR] ['APOORVA.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-08-18 16:25:45 [INFO] Successfully fetched live prices for 914 IPO tickers.
+2026-08-18 16:25:45 [INFO] SUCCESS: IPO Performance data saved -> ipo_performance_data.csv (925 IPOs)
+2026-08-18 16:25:45 [INFO] =================================================================
+2026-08-18 16:25:45 [INFO] IPO TRACKER COMPLETE: 925 IPOs processed successfully.
+2026-08-18 16:25:45 [INFO] =================================================================
+2026-08-18 16:25:45 [INFO] STAGE 7 Complete: IPO performance data generated.
+2026-08-18 16:25:45 [INFO] STAGE 9: Fetching FII / DII Institutional Flows...
+2026-08-18 16:25:45 [INFO] Fetching FII / DII Institutional Flows...
+2026-08-18 16:25:46 [INFO] SUCCESS: FII/DII Flow data saved -> fii_dii_data.json
+2026-08-18 16:25:46 [INFO]   FII Net: Rs 420.5 Cr | DII Net: Rs 890.3 Cr | Bias: STRONGLY BULLISH
+2026-08-18 16:25:46 [INFO] STAGE 9 Complete: FII/DII flow data generated.
+2026-08-18 16:25:46 [INFO] STAGE 10: Fetching Live Stock News & Catalysts...
+2026-08-18 16:25:46 [INFO] Fetching Live Stock News & Catalysts...
+2026-08-18 16:25:46 [ERROR] No CSV files found for news fetching.
+2026-08-18 16:25:46 [INFO] STAGE 10 Complete: Stock news data generated.
+2026-08-18 16:25:46 [INFO] STAGE 8: Running AI Smart Analysis Engine...
+2026-08-18 16:25:46 [INFO] ============================================================
+2026-08-18 16:25:46 [INFO] STOKS AI — Smart Analysis Engine V1.1 Starting...
+2026-08-18 16:25:46 [INFO] ============================================================
+2026-08-18 16:25:46 [INFO]   Processing 50 rows from recent_ipo_breakouts_5y.csv...
+2026-08-18 16:25:46 [INFO]   Processing 51 rows from master_scan_results.csv...
+2026-08-18 16:25:46 [INFO]   Processing 109 rows from monthly_ath_breakouts.csv...
+2026-08-18 16:25:46 [INFO]   Generated 141 AI stock reports.
+2026-08-18 16:25:46 [INFO]   Market Sentiment: MODERATELY BULLISH
+2026-08-18 16:25:46 [INFO]   Top Picks: Prabha (PRABHA), A (ABCOTS), Regaal (REGAAL), Jyoti (JYOTICNC), Concord (CONCORDBIO)
+2026-08-18 16:25:46 [INFO] SUCCESS: AI Analysis Report saved -> ai_analysis_report.json
+2026-08-18 16:25:46 [INFO] STAGE 8 Complete: AI analysis report generated.
+2026-08-18 16:25:46 [INFO] STAGE 11: Dispatching Breakout Alerts...
+2026-08-18 16:25:46 [INFO] [Alerts] Dispatching alerts for 11 Tier 1 signals...
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Prabha Energy Limited (PRABHA.NS) -> Entry: Rs 192.2 | Score: 100
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] A B Cotspin India Limited (ABCOTS.NS) -> Entry: Rs 217.4 | Score: 100
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Regaal Resources Limited (REGAAL.NS) -> Entry: Rs 99.53 | Score: 100
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Jyoti CNC Automation Limited (JYOTICNC.NS) -> Entry: Rs 929.2 | Score: 100
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Valiant Laboratories Limited (VALIANTLAB.NS) -> Entry: Rs 90.85 | Score: 90
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Bilcare Limited (BI.NS) -> Entry: Rs 101.38 | Score: 90
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Gujarat Kidney And Super Speciality Limited (GKSL.NS) -> Entry: Rs 153.46 | Score: 90
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] PAKKA LIMITED (PAKKA.NS) -> Entry: Rs 95.49 | Score: 90
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] Baazar Style Retail Limited (STYLEBAAZA.NS) -> Entry: Rs 402.65 | Score: 90
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] A B Infrabuild Limited (ABINFRA.NS) -> Entry: Rs 12.57 | Score: 90
+2026-08-18 16:25:46 [INFO]   [TIER 1 ALERT] SONAM LIMITED (SONAMLTD.NS) -> Entry: Rs 60.31 | Score: 90
+2026-08-18 16:25:46 [INFO] STAGE 11 Complete: Alerts dispatched.
+2026-08-18 16:25:46 [INFO] STAGE 4: Regenerating STOKS V4.2 Workstation Dashboard...
+2026-08-18 16:25:46 [INFO] ================================================================================
+2026-08-18 16:25:46 [INFO]  STOKS V4.2 ENTERPRISE PIPELINE FINISHED SUCCESSFULLY!
+2026-08-18 16:25:46 [INFO] ================================================================================
